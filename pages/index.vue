@@ -6,6 +6,7 @@ const { data: todo, pending, error } = await useAsyncData(() => $client.todo.get
 </script>
 
 <template>
+  test
   <div>
     {{ todo }}
   </div>
